@@ -29,9 +29,6 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- HTML
-- CSS
-- JavaScript
 - React
 
 <!-- Features -->
@@ -45,7 +42,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [<a href="" target="_blank">Live version</a>](#)
+- Not available yet
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
