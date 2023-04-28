@@ -42,6 +42,14 @@ h1 {
   height: 60px;
 }
 
+.btn:hover {
+  background-color: burlywood;
+}
+
+.btn:focus {
+  background-color: burlywood;
+}
+
 .orange {
   background-color: orange;
 }
