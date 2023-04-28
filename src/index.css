@@ -1,7 +1,7 @@
 h1 {
   color: olive;
   text-align: center;
-  margin-top: 3%;
+  margin: 3% 0;
 }
 
 .wrapper {
@@ -12,7 +12,7 @@ h1 {
 }
 
 .container {
-  margin-top: 6%;
+  margin-top: 4%;
   width: 400px;
   border: 2px solid olive;
   border-radius: 5px;
@@ -52,4 +52,12 @@ h1 {
 
 .orange {
   background-color: orange;
+}
+
+.quoteDiv {
+  text-align: center;
+  font-size: large;
+  letter-spacing: 0.1mm;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
 }
