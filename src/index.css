@@ -46,6 +46,10 @@ h1 {
   background-color: burlywood;
 }
 
+.btn:focus {
+  background-color: burlywood;
+}
+
 .orange {
   background-color: orange;
 }
