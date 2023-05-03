@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import calculate from '../logic/calculate';
+import '../styles/calculator.css';
 
 function Calculator() {
   const [state, setState] = useState({
@@ -15,6 +16,9 @@ function Calculator() {
 
   return (
     <div className="wrapper">
+      <div className="greeting">
+        <p>Let&apos;s throw in some numbers</p>
+      </div>
       <div className="container">
         <div className="firstRow">
           <div className="display">{state.next || state.total || '0'}</div>

@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import '../styles/quote.css';
 
 export default function DisplayQuote() {
   const [quotes, setQuote] = useState([]);
@@ -27,12 +28,16 @@ export default function DisplayQuote() {
 
   if (error) return <div>Cannot get data from API!</div>;
   return (
-    <div className="quoteDiv">
+    <div className="wrapper">
       {
-      load ? (<div>Loading...</div>
+      load ? (<div className="loadingTxt">Loading...</div>
       ) : (
-        <div>
-          <p className="quote">{quotes.quote}</p>
+        <div className="quoteDiv">
+          <p className="quote">
+            &quot;
+            {quotes.quote}
+            &quot;
+          </p>
           <small className="author">{quotes.author}</small>
         </div>
       )

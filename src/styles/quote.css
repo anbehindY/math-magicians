@@ -1,0 +1,20 @@
+.wrapper {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+.loadingTxt {
+  color: goldenrod;
+  font-size: 2em;
+}
+
+.quoteDiv {
+  text-align: center;
+  font-size: 2em;
+  letter-spacing: 0.1mm;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+  color: goldenrod;
+}
