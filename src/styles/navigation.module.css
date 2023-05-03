@@ -1,24 +1,24 @@
 .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2% 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 3%;
 }
 
 .logo {
-    font-size: 3em;
-    color: goldenrod;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3em;
+  color: goldenrod;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .navList {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .link {
-    text-decoration: none;
-    color: goldenrod;
-    font-family: Tahoma, sans-serif;
-    font-size: 1.5em;
+  text-decoration: none;
+  color: goldenrod;
+  font-family: Tahoma, sans-serif;
+  font-size: 1.5em;
 }
