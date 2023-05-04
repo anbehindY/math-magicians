@@ -54,7 +54,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](https://math-magicians-5vkc.onrender.com)
+<a href="https://math-magicians-ua6d.onrender.com" target="_blank">Live version</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
