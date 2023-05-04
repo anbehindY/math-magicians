@@ -8,8 +8,8 @@ export default function DisplayQuote() {
 
   useEffect(() => {
     const fetchData = async () => {
+      setLoad(true);
       try {
-        setLoad(true);
         const response = await fetch('https://api.api-ninjas.com/v1/quotes?category=inspirational', {
           headers: {
             'X-Api-Key': 'jf2INV23//Hm3xE4ZPqTXw==TLnlWMUVCQy6j163',
