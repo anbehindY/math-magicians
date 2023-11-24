@@ -14,7 +14,7 @@ function App() {
           <Route path="calculator" element={<Calculator />} />
           <Route path="quote" element={<DisplayQuote />} />
         </Route>
-        <Route path="*" element={<div>Error! Page not found</div>} />
+        <Route path="*" element={<div style={{ color: 'red' }}>Error! Page not found</div>} />
       </Routes>
     </BrowserRouter>
   );
